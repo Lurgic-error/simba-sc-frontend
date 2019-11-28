@@ -1,0 +1,33 @@
+
+.stadium{
+    display: flex;
+
+    .stadium-img{
+        width: 50%;
+        background: red;
+    }
+
+    .stadium-info{
+        width: 50%;
+        padding: 2rem;
+        .info-heading{
+            color: red;
+            font-size: 1.2rem;
+        }
+
+        .stadium-details{
+            margin-top: 1.25rem;
+            line-height: 24px;
+        }
+
+        .stadium-stats{
+            margin-top: 1.25rem;
+
+            p{  
+                color: black;
+                font-weight:bold;
+            }
+        }
+    }
+}
+

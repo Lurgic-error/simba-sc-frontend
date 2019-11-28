@@ -1,0 +1,50 @@
+body {
+    font-family: $default-font-family;
+    font-weight: $default-font-weight;
+    line-height: $default-line-height;
+    color:$default-font-color;
+}
+.section-heading{
+    font-size: $section-heading-font-size
+
+}
+
+.section-subheading{
+    font-size: $section-subheading-font-size;
+    margin-top:$section-subheading-margin-top;
+    color: $color-grey-dark;
+}
+
+.title{
+    font-size:$title-font-size;
+    &__bg{
+        font-size:$title-font-size-lg;
+        &--red{
+            color:$color-primary;
+            font-size: $title-font-size-lg;
+        }
+    }
+
+    &__md{
+        font-size:$title-font-size-md;
+        &--red{
+            color:$color-primary;
+            font-size:$title-font-size-md;
+        }
+    }
+}
+
+.subtitle{
+    font-size: $subtitle-font-size;
+    margin-top:$subtitle-margin-top;
+}
+
+.paragraph {
+    font-size:$paragraph-font-size;
+    line-height: $paragraph-line-height;
+    word-spacing: 3px;
+
+    &:not(:last-child) {
+        margin-bottom: $paragraph-margin-top;
+    }
+}

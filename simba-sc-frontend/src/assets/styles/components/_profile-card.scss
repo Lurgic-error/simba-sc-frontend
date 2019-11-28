@@ -1,0 +1,27 @@
+
+.profile-card{
+    display: flex;
+    align-items: center;
+    padding:  3rem;
+    .profile-img{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        border:1px solid red
+    }
+
+    .profile-info{
+        margin-left: 1.25rem;
+        line-height: 28px;
+
+        
+        .profile-title{
+            font-size: 1.2rem;
+
+        }
+
+        .profile-name{
+            font-size: 1.8rem;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+section.article{
+    padding: 4rem 15rem;
+    display: flex;
+    height: 500px;
+
+    .article-content{
+        margin-right: 3rem;
+        width: 50%;
+
+        .article-heading{
+            .article-title{
+                font-size: 1.2rem;
+                .article-date{
+                    font-size:.8rem;
+                }
+            }
+            .article-subtitle{
+                font-size: .8rem;
+            }
+            .article-author{
+                font-size: .8rem;
+            }
+        }
+
+        .article-body{
+            margin-top: .75rem;
+            .article-text{
+                
+            }
+        }
+    }
+
+    .article-img{
+        height: 100%;
+        width: 50%;
+        background-color: red;
+    }
+
+}

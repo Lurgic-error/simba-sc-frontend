@@ -1,0 +1,111 @@
+// .hero{
+//     height: 100%;
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     background-size: cover;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+
+//     .hero-content{
+
+//         .hero-heading{
+//             // text-transform: capitalize;
+//             font-size: 4rem;
+//         }
+//     }
+// }
+
+
+// .fixtures{
+//     padding: 4rem 15rem;
+
+//     .fixtures-top{
+//         // display: flex;
+//         // justify-content: space-around;
+//         // justify-content:
+//         margin: 2rem 0;
+//         padding: 3rem;
+//         // .fixture-card{
+//         //     height: 300px;
+//         //     width: 200px;
+//         //     border: 1px solid red;
+//         //     margin: 0 0.5rem 0 0;
+
+//         //     &:nth-last-child(){
+//         //         margin-left: 0;
+//         //     }
+            
+//         //     .card-img{
+//         //         height: 200px;
+//         //         width: 100%;
+//         //         background-color:red;
+//         //     }
+
+//         //     .card-body{
+//         //         padding:0rem .75rem;
+//         //         .card-title{
+//         //             font-size: 1rem;
+//         //         }
+
+//         //         .card-text{
+//         //             line-height: 18px;
+//         //             font-size: .8rem;
+//         //         }
+
+//         //         .fixture-date{
+//         //             color: grey;
+//         //             font-size: .75rem;
+//         //         }
+//         //     }
+//         // }
+//     }
+
+//     .fixtures-bottom{
+//         display: flex;
+
+//         .game{
+
+//             &:nth-child(2){
+//                 margin-left: 3rem;
+//             }
+//         }
+//     }
+// }
+
+
+.partners{
+    // background-color:rgba(255, 0, 0, 0.151);
+    // margin-top: 3rem;
+    padding: 4rem 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .partners-heading{
+        text-align: center;
+        font-size: 1.8rem;
+        margin-bottom: 1.25rem;
+    }
+
+    .partners-list{
+        display: flex;
+        justify-content: center;
+
+        @include respond(phone){
+            flex-wrap: wrap;
+        }
+
+        @include respond(phone){
+            flex:1 1 20%;
+        }
+        .partners-item{
+            margin: 0 .75rem;
+            list-style: none;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            border: 1px solid red;
+        }
+    }
+}

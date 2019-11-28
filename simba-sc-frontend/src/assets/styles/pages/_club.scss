@@ -1,0 +1,32 @@
+
+
+.org-structure{
+    padding: 4rem 15rem;
+    display: flex;
+    flex-wrap: wrap;
+
+    .profile-card{
+        flex: 0 0 50%;
+    }
+}
+
+.club-history{
+    padding: 4rem 15rem;
+
+    .history-title{
+        text-align: center;
+        font-size: 1.8rem;
+
+    }
+}
+
+
+.club-archivements{
+    padding: 4rem 15rem;
+
+    .archivement-title{
+        text-align: center;
+        font-size: 1.8rem;
+        margin-bottom: 1.75rem;
+    }
+}

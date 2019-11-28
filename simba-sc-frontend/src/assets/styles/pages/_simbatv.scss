@@ -1,0 +1,30 @@
+.icon-play-lg {
+    font-size: 10rem;
+}
+
+.icon-play-md {
+    font-size: 5rem;
+}
+
+.highlights {
+
+    padding: 4rem 15rem;
+    display: flex;
+    flex-wrap: wrap;
+
+    .match-highlight {
+        flex: 0 0 40%;
+        height: 300px;
+        margin: 2rem;
+        border: 2px solid red;
+
+        .match-video {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: red;
+            height: 100%;
+            
+        }
+    }
+}

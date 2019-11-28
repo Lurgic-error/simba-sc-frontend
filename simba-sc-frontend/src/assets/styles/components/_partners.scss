@@ -1,0 +1,11 @@
+.partners__list{
+    display: flex;
+
+    @include respond(phone){
+        flex-wrap: wrap;
+    }
+
+    .partner{
+        flex: 1;
+    }
+}

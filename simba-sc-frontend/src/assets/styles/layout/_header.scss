@@ -1,0 +1,38 @@
+.header {
+    padding: .75rem 0 0 0;
+    @include respond(phone){
+        padding: 0;}
+
+
+    .header-top {
+        padding: 0 2.5rem;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        @include respond(phone){
+            display: none;
+        }
+        .social-links {
+            padding: 0 2rem;
+
+            .icons {
+                font-size: 1.25rem;
+                padding: 0 0.5rem;
+            }
+        }
+
+
+        .auth {
+
+            a {
+                text-decoration: none;
+                color: white;
+                letter-spacing: 1px;
+            }
+        }
+    }
+
+
+
+}

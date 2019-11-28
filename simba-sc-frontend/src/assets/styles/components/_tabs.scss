@@ -1,0 +1,27 @@
+.tabs {
+    display: flex;
+    padding: .75rem 2rem;
+    border-bottom: 1px solid black;
+}
+
+.tabs--dark {
+    display: flex;
+    justify-content: center;
+    padding: .75rem 2rem;
+    border-bottom: 1px solid black;
+    background-color: red;
+
+    .tab-links {
+        margin: 0 1.25rem;
+        text-decoration: none;
+        color: white;
+
+    }
+    
+}
+
+.tab-links {
+    margin: 0 1.25rem;
+    text-decoration: none;
+
+}

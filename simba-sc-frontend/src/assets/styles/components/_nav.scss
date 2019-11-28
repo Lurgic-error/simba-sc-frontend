@@ -1,0 +1,55 @@
+.nav{
+
+    // padding: 0 3rem;
+    // display: flex;
+    // align-items: center;
+    // background-color: red;
+
+    @include respond(phone){
+        flex-direction: column;
+        // padding: 1.25em 0;
+    }
+
+    @include respond(tab-port){}
+
+    @include respond(tab-land){}
+}
+
+
+// .navbar {
+//     margin: 0 0 0 2rem;
+//     display: flex;
+
+//     @include respond(phone){
+//         // display: none;
+//         // flex-direction: column;
+//     }
+//     .navbar-item {
+//         list-style-type: none;
+//         margin: 0 2rem 0 0;
+//         // border-right: 1px solid white;
+//         .navbar-link {
+//             text-decoration: none;
+//             color: white;
+//             text-transform: uppercase;
+//         }
+//     }
+// }
+
+
+// .brand {
+
+//     .brand-name {
+//         text-decoration: none;
+//         color: white;
+//         font-size: 2rem;
+//         font-weight: 700;
+//         text-transform: uppercase;
+//     }
+// }
+
+
+.show-nav{
+    display: flex;
+}
+
